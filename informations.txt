@@ -27,18 +27,20 @@
 		- Installation
 		- Présenter une photo d'une ligne de commande de git
 	
-	-- Demo Eclipse (adrian)
-		- Installation de EGIT sur Eclipse
-		- Share a project
-		- import project from github
-		- Bonne pratique pour le dossier .git
-		- Commit, checkout, history, merge, new branch, rebase...
-	
-# Synchroniser avec GitHub
-	--- Concepts et vocabulaires (francois)
-	
-	--- Démo eclipse (francois)
-		- pull, fetch, push, clone, fork, pull request
+	-- Demo Eclipse
+		- Créer un projet Git (dyden)
+			- Installation de EGIT sur Eclipse
+			- Share a project
+			- Bonnes pratiques pour le dossier .git
+			- commit, new branch, commit, history, checkout
+		
+		- Synchronsiser avec Github (francois)
+			- créer projet sur github
+			- foncitonnement et tarifs
+			- push branch
+		
+		- import project from github (adrian)
+			- Commit projet 2 sur master, Commit projet 1 sur master, merge, conflit, résoudre conflits
 	
 	--- Discussions et monitoring sur github (dyden)
 
