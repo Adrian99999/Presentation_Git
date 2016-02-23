@@ -1,10 +1,48 @@
 ### Présentation Git
 
-# Problématique
-- Bla bl
-(Problematique_image1.JPG)
+# Introduction / Problématique (francois)
 
--sdfsdfasdf
-asdfasdf
+# Gestionnaires de versions (adrian)
+--- Histoire des gestionnaires de version
+	(survoler rapidement les différents GDV)
 
-asdf
+# Le cas de Git
+	
+	--- Concepts et vocabulaires
+	
+		- Architecture de git (dyden)
+			- Dossier caché .git
+			- Head, remote, master...
+		
+		- Concepts de développement (adrian)
+			- branches
+			- commit
+			- checkout
+		
+		- Concepts de synchronisation (francois)
+			- merge, rebase
+			- conficts
+	
+	--- En ligne de commande (dyden)
+		- Installation
+		- Présenter une photo d'une ligne de commande de git
+	
+	-- Demo Eclipse (adrian)
+		- Installation de EGIT sur Eclipse
+		- Share a project
+		- import project from github
+		- Bonne pratique pour le dossier .git
+		- Commit, checkout, history, merge, new branch, rebase...
+	
+# Synchroniser avec GitHub
+	--- Concepts et vocabulaires (francois)
+	
+	--- Démo eclipse (francois)
+		- pull, fetch, push, clone, fork, pull request
+	
+	--- Discussions et monitoring sur github (dyden)
+
+# Conclusion (adrian)
+	- Retour sur les point avec questions (francois, dyden, adrian)
+	- Prendre les questions du public
+
