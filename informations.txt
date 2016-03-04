@@ -1,0 +1,50 @@
+### Présentation Git
+
+# Introduction / Problématique (francois)
+
+# Gestionnaires de versions (adrian)
+--- Histoire des gestionnaires de version
+	(survoler rapidement les différents GDV)
+
+# Le cas de Git
+	
+	--- Concepts et vocabulaires
+	
+		- Architecture de git (dyden)
+			- Dossier caché .git
+			- Head, remote, master...
+		
+		- Concepts de développement (adrian)
+			- branches
+			- commit
+			- checkout
+		
+		- Concepts de synchronisation (francois)
+			- merge, rebase
+			- conficts
+	
+	--- En ligne de commande (dyden)
+		- Installation
+		- Présenter une photo d'une ligne de commande de git
+	
+	-- Demo Eclipse
+		- Créer un projet Git (dyden)
+			- Installation de EGIT sur Eclipse
+			- Share a project
+			- Bonnes pratiques pour le dossier .git
+			- commit, new branch, commit, history, checkout
+		
+		- Synchronsiser avec Github (francois)
+			- créer projet sur github
+			- foncitonnement et tarifs
+			- push branch
+		
+		- import project from github (adrian)
+			- Commit projet 2 sur master, Commit projet 1 sur master, merge, conflit, résoudre conflits
+	
+	--- Discussions et monitoring sur github (dyden)
+
+# Conclusion (adrian)
+	- Retour sur les point avec questions (francois, dyden, adrian)
+	- Prendre les questions du public
+
