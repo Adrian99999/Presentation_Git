@@ -2,6 +2,46 @@
 
 # Introduction / Problématique (francois)
 
+Titre: Le Gestionnaire de versions GIT
+
+---Problématique
+Comment travailler à plusieurs sur le même code tout en limitant le nombre de versions, 
+en conservant l'historique des modifications et en facilitant la fusion des modifications?
+
+--- Solution : Système de contrôle de version (Version Control System)
+
+!!! Image : VersionControlSoftware.png
+
+-- Architecture Client-Serveur
+
+Local data model
+1972, Source Code Control System (SCCS)
+Alternative in 1982, Revision Control System (RCS)
+
+Client-server model
+1990, Concurrent Versions System (CVS) (Basé on RCS)
+2000, Apache Subversion (SVN) (Inspiré de CVS)
+
+Distributed model
+'90-Sun WorkShop TeamWare
+1998 BitKeeper (Open Source)
+2005 - Bitkeeper émet ne nouvelles restrictions sur le logiciel
+-> Linux Kernel Dev Team mené par Linus Torvalds cré Git
+D'autres créent Mercurial, Baazar (Canonical), Fossil
+
+Quelques avantages du model décentralisé
+- Opérations rapides car tout le contenu est local
+- Communications seulement pour partager des modifications (patches)
+- Chaque membre a un copie de tout le répertoire
+- Pas besoin d'être connecté au seveur pour travailler
+- Possibilité pour n'importe qui de travailler sur le projet.
+  Un responsable choisi alors ce qui est intégré et ce qui ne
+  l'est pas.
+- Permet des modifications personnelles qui ne seront pas publiées.
+- Pour les projets libres, permet de poursuivre le développement
+  en cas d'arrêt pour des raisons de leadership ou désaccord
+  sur la conception.
+
 # Gestionnaires de versions (adrian)
 --- Histoire des gestionnaires de version
 	(survoler rapidement les différents GDV)
@@ -20,6 +60,7 @@
 			- checkout
 		
 		- Concepts de synchronisation (francois)
+		
 			- merge, rebase
 			- conficts
 	
