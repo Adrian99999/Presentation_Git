@@ -53,7 +53,7 @@ Quelques avantages du model décentralisé
 		- Architecture de git (dyden)
 			- Dossier caché .git
 			- Head, remote, master...
-		
+			
 		- Concepts de développement (adrian)
 			- branches
 			- commit
